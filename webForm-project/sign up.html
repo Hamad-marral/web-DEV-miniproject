@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <style>
+      form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      button[type=submit] {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 15px 130px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+      }
+      
+      button[type=submit]:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Sign Up</h2>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="surname">Surname</label>
+      <input type="text" id="surname" name="surname" required>
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <label for="password-confirm">Confirm Password</label>
+      <input type="password" id="password-confirm" name="password-confirm" required>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

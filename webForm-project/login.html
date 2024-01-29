@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login</title>
+	<style>
+  form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #444;
+    text-align: left;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  a {
+    font-size: 14px;
+    color: #888;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #555;
+  }
+</style>
+</head>
+<body>
+	<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password"><br>
+
+  <a href="#">Forgotten Password?</a><br>
+
+  <input type="submit" value="Login">
+</form>
+
+	
+</body>
+</html>
